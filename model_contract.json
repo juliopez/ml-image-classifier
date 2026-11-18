@@ -1,0 +1,16 @@
+{
+  "input_shape": [
+    1,
+    128,
+    128,
+    3
+  ],
+  "tipo_entrada": "float32",
+  "canales": "RGB",
+  "preprocesamiento": "RGB, resize 128x128, float32 / 255.0",
+  "clases": [
+    "paper",
+    "rock",
+    "scissors"
+  ]
+}
